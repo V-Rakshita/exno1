@@ -22,6 +22,7 @@ STEP 6: Use zscore of to remove outliers
 
 # Coding and Output
 
+## Data Cleaning Process
 import pandas as pd
 df = pd.read_csv("Data_set.csv")
 df
@@ -80,6 +81,7 @@ df.interpolate()
 
 ![alt text](image-12.png)  
 
+## Outlier Detection & Removal
 
 # Result
           
